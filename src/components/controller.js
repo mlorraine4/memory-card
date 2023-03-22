@@ -16,11 +16,19 @@ const controller = (() => {
         return false;
       }
     }
-
     addMoves(move);
     return true;
   };
-  return { addMoves, checkTurn };
+
+  const displayWrongMove = (move) => {
+    console.log(document.getElementById(move));
+    document.getElementById(move).classList.add("wrong");
+  };
+
+  const clearBoard = (move) => {
+    document.getElementById(move).classList.remove("wrong");
+  };
+  return { addMoves, checkTurn, displayWrongMove, clearBoard };
 })();
 
 export { controller };

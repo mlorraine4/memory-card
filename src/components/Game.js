@@ -38,7 +38,12 @@ const Game = () => {
     if (controller.checkTurn(title)) {
       setScore(score + 1);
     } else {
-      setScore(0);
+      controller.displayWrongMove(title);
+      setTimeout(() => {
+        controller.clearBoard(title);
+        setScore(0);
+        controller.clearBoard(title);
+      }, 1000);
     }
   };
 
@@ -46,7 +51,7 @@ const Game = () => {
     if (score > highScore) {
       setHighScore(score);
     }
-  }, [score])
+  }, [score]);
 
   useEffect(() => {
     const newCards = [...cards];
