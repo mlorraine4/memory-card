@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/memory-card/static/css/main.eb2d4190.css",
+    "main.js": "/memory-card/static/js/main.03420b9c.js",
+    "static/js/787.d6a8b40f.chunk.js": "/memory-card/static/js/787.d6a8b40f.chunk.js",
+    "static/media/jiji.jpg": "/memory-card/static/media/jiji.46ba6c62e3aabfccdf42.jpg",
+    "static/media/kaneki.jpg": "/memory-card/static/media/kaneki.76b12dbb6f9380f47d7c.jpg",
+    "static/media/itadori.jpg": "/memory-card/static/media/itadori.05106942f23cb74768c6.jpg",
+    "static/media/satoru.jpg": "/memory-card/static/media/satoru.16db7d454b2bfc6516ba.jpg",
+    "static/media/kyo.jpg": "/memory-card/static/media/kyo.f5a17082ef9e39b0f754.jpg",
+    "static/media/calcifer.jpg": "/memory-card/static/media/calcifer.f984a31d0c75d61f9708.jpg",
+    "static/media/kodama.jpg": "/memory-card/static/media/kodama.947a96fa0caa312211b8.jpg",
+    "static/media/kurapika.jpg": "/memory-card/static/media/kurapika.31e2767437d849959216.jpg",
+    "static/media/tomioka.jpg": "/memory-card/static/media/tomioka.330b398980fdb77459e7.jpg",
+    "static/media/edward.jpg": "/memory-card/static/media/edward.1f2143b349a1a2e983e4.jpg",
+    "index.html": "/memory-card/index.html",
+    "main.eb2d4190.css.map": "/memory-card/static/css/main.eb2d4190.css.map",
+    "main.03420b9c.js.map": "/memory-card/static/js/main.03420b9c.js.map",
+    "787.d6a8b40f.chunk.js.map": "/memory-card/static/js/787.d6a8b40f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eb2d4190.css",
+    "static/js/main.03420b9c.js"
+  ]
+}
